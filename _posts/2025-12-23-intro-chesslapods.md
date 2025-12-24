@@ -1,10 +1,6 @@
 ---
 layout: post
-title: "Your Post Title Here"
-date: 2025-12-24 12:00:00 -0500
-categories: [tech, update]
-tags: [github, markdown, snippet]
-description: "A short description for SEO and link previews (140-160 chars)."
+title: "Introducing: Chesslapods!"
 ---
 
 **What Is This?**
