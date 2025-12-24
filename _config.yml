@@ -116,7 +116,7 @@ author:
   name             : "Samuel Warren"
   avatar           : "profile.jpeg"
   bio              : "Failed philosopher turned technology explorer."
-  location         : "Georgetown, TX"
+  location         :
   email            :
   links:
     - label: "Email"
