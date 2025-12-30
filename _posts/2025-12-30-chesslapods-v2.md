@@ -10,14 +10,20 @@ title: "Chesslapods v2"
     This is an evolution of the chesslapods. The PGN I used is below.
   </div>
 
-  <video
-    controls
-    playsinline
-    style="display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
-  >
-    <source src="{{ \"/AN_ST.mp4\" | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <div style="max-width: 520px; margin: 0 auto 30px;">
+    <video
+      controls
+      playsinline
+      preload="metadata"
+      style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+    >
+      <source src="{{ \"/AN_ST.mp4\" | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div style="margin-top: 8px; font-size: 0.9em; color: #666;">
+      <a href="{{ \"/AN_ST.mp4\" | relative_url }}">Download the video</a>
+    </div>
+  </div>
 
   <div style="margin-bottom: 30px; color: #444; line-height: 1.6; border-left: 3px solid #333; padding-left: 15px;">
     <strong>PGN</strong><br>
