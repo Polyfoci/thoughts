@@ -12,9 +12,10 @@ title: "Chesslapods v2"
 
   <video
     controls
-    style="display: block; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+    playsinline
+    style="display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
   >
-    <source src="/AN_ST.mp4" type="video/mp4">
+    <source src="{{ \"/AN_ST.mp4\" | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
